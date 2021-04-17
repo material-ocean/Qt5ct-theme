@@ -104,4 +104,32 @@ background: palette(alternate-window);
 border: 1px solid palette(highlight);
 }
 
+/* hide window resize grip */
+QSizeGrip {
+    background: palette(dark);
+    width: 0px;
+   height: 0px;
+ }
+
+/* radio buttons */
+QRadioButton {
+    background-color:       palette(dark);
+    color:                  white;
+}
+
+QRadioButton::indicator {
+    width:                  10px;
+    height:                 10px;
+    border-radius:          5px;
+}
+
+QRadioButton::indicator:checked {
+    background-color:       palette(highlight);
+    border:                 1px solid black;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:       palette(dark);
+    border:                 1px solid black;
+}
 
