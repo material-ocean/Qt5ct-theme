@@ -2,8 +2,12 @@
 
 ### Installation
 
-- `cp Material\ Ocean.conf ~/.config/qt5ct/colors`
-- set theme to material ocean from Qt5ct
+- clone or download repo
+- `cp Material-Ocean/colors/Material-Ocean.conf ~/.config/qt5ct/colors`
+- `cp Material-Ocean/qss/material-ocean.qss ~/.config/qt5ct/qss`
+- open Qt5ct.
+- set theme to material ocean.
+- enable material-ocean.qss style sheet.
 
 ### License
 
